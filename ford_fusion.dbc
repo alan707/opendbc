@@ -42,8 +42,8 @@ BO_ 1045 NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_5 : 23|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 122 steering_cmd?: 8 XXX
- SG_ NEW_SIGNAL_1 : 31|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ command : 31|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 118 steering?: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
@@ -52,3 +52,15 @@ BO_ 118 steering?: 8 XXX
 BO_ 119 NEW_MSG_3: 8 XXX
  SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 31|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 936 steering_torque: 8 XXX
+ SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ steering_torque? : 31|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 66 NEW_MSG_2: 8 XXX
+
+BO_ 130 NEW_MSG_4: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 133 NEW_MSG_5: 8 XXX
+ SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
